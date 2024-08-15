@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35013.160
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DemoPortalWebApi", "DemoPortalWebApi\DemoPortalWebApi.csproj", "{847DDA2D-78AD-4CF3-8726-4A21C429F7FD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Api", "DemoPortalWebApi\Api.csproj", "{847DDA2D-78AD-4CF3-8726-4A21C429F7FD}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{DF957291-BF7C-452B-B4BB-18C46F11F315}"
 EndProject
@@ -15,9 +15,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataAccess", "DataAccess\Da
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Service", "Service\Service.csproj", "{C26943A9-E375-48E8-BC4E-2B1A3AFB2382}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoPortalWebApiTests", "DemoPortalWebApiTests\DemoPortalWebApiTests.csproj", "{36333B6C-6ED2-4FC4-ADE8-0D189866B1DC}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccessTests", "DataAccessTests\DataAccessTests.csproj", "{80E778E6-1242-401C-AD7D-C324D4F61A8E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataAccessTests", "DataAccessTests\DataAccessTests.csproj", "{80E778E6-1242-401C-AD7D-C324D4F61A8E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,10 +39,6 @@ Global
 		{C26943A9-E375-48E8-BC4E-2B1A3AFB2382}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C26943A9-E375-48E8-BC4E-2B1A3AFB2382}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C26943A9-E375-48E8-BC4E-2B1A3AFB2382}.Release|Any CPU.Build.0 = Release|Any CPU
-		{36333B6C-6ED2-4FC4-ADE8-0D189866B1DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{36333B6C-6ED2-4FC4-ADE8-0D189866B1DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{36333B6C-6ED2-4FC4-ADE8-0D189866B1DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{36333B6C-6ED2-4FC4-ADE8-0D189866B1DC}.Release|Any CPU.Build.0 = Release|Any CPU
 		{80E778E6-1242-401C-AD7D-C324D4F61A8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{80E778E6-1242-401C-AD7D-C324D4F61A8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{80E778E6-1242-401C-AD7D-C324D4F61A8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -58,7 +52,6 @@ Global
 		{7D96C529-327A-423C-831D-B4FA5255B9B5} = {DF957291-BF7C-452B-B4BB-18C46F11F315}
 		{18804F03-4E73-4235-9E92-4D0EA5D70C57} = {DF957291-BF7C-452B-B4BB-18C46F11F315}
 		{C26943A9-E375-48E8-BC4E-2B1A3AFB2382} = {DF957291-BF7C-452B-B4BB-18C46F11F315}
-		{36333B6C-6ED2-4FC4-ADE8-0D189866B1DC} = {DF957291-BF7C-452B-B4BB-18C46F11F315}
 		{80E778E6-1242-401C-AD7D-C324D4F61A8E} = {DF957291-BF7C-452B-B4BB-18C46F11F315}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
