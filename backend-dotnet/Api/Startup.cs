@@ -30,7 +30,7 @@
 
             services.AddSingleton<IMongoDbContext>(sp =>
             new MongoDbContext(
-            Configuration.GetConnectionString("MongoDb"), "employee"));
+            Configuration.GetConnectionString("MongoDb")!, "employee"));
             services.AddScoped<ITransactionService, TransactionService>();
             services.AddScoped<ITransactionRepo, TransactionRepo>();
             services.Configure<ProductDBSettings>(
